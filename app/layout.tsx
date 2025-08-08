@@ -15,12 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="description"
-          content="A full educational platform for Ethiopian university students. Access quizzes, notes, and materials after verification."
-        />
-      </head>
+      <head />
       <body>{children}</body>
     </html>
   )
